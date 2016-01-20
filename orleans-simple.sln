@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simple-server", "simple-ser
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interfaces", "simple-interfaces\interfaces\interfaces.csproj", "{60FF2A0E-4187-4489-A729-B680D44879C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grains", "simple-grains\Grains\Grains.csproj", "{25E49191-02D6-49D7-B32F-3B00ECB86CD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{60FF2A0E-4187-4489-A729-B680D44879C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60FF2A0E-4187-4489-A729-B680D44879C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60FF2A0E-4187-4489-A729-B680D44879C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25E49191-02D6-49D7-B32F-3B00ECB86CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E49191-02D6-49D7-B32F-3B00ECB86CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E49191-02D6-49D7-B32F-3B00ECB86CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E49191-02D6-49D7-B32F-3B00ECB86CD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

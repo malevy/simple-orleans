@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Net;
+using interfaces;
 using Orleans;
 using Orleans.Runtime.Host;
 
@@ -19,7 +20,8 @@ namespace simple_server
 
             GrainClient.Initialize("ClientConfig.xml");
 
-            // make call here
+            var greeter = GrainClient.GrainFactory.GetGrain<IGreeter>(0);
+            Console.WriteLine(greeter.CreateGreetingFor("Mike").Result);
 
             Console.WriteLine("\nPress enter to stop");
             Console.ReadLine();
